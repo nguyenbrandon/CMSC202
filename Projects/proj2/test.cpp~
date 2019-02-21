@@ -1,0 +1,33 @@
+#include <iostream>
+#include <iomanip>
+#include <vector>
+#include <stdlib.h>
+#include <time.h>
+#include <string>
+#include "Pokemon.cpp"
+
+using namespace std;
+
+
+int main(){
+  /*
+  THIS PART WAS USED TO TEST POKEMON.CPP & POKEMON.H
+  
+  Pokemon bafoon(151, "bafoon1", 5, 10, 3);
+  
+  cout<<"Testing GetCPMin()\n"<<bafoon.GetCPMin()<<endl;
+  cout<<"Testing GetCPMax()\n"<<bafoon.GetCPMax()<<endl;
+  cout<<"Testing GetRarity()\n"<<bafoon.GetRarity()<<endl;
+  cout<<"Testing GetName()\n"<<bafoon.GetName()<<endl;
+  cout<<"Testing GetNum()\n"<<bafoon.GetNum()<<endl;
+
+  bafoon.SetRarity(1);
+  cout<<"New Rarity should be 1:\n"<<bafoon.GetRarity()<<endl;
+
+  bafoon.SetName("bafoon2");
+  cout<<"New name should be bafoon2\n"<<bafoon.GetName()<<endl;
+  
+  bafoon.SetCP(4);
+  */
+  return 0;
+}

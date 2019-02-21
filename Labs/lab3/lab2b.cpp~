@@ -1,0 +1,21 @@
+
+#include <iostream>
+#include <fstream>
+#include <string>
+#include <iomanip>
+using namespace std;
+
+int main(){
+
+  int numCoffee = 10;
+  int *ptrCoffee;
+  ptrCoffee = &numCoffee;
+  cout<<"ptrCoffee ="<<ptrCoffee<<endl;
+  cout<<"*ptrCoffee ="<<*ptrCoffee<<endl;
+  cout<<"numCoffee = 20"<<endl;
+  *ptrCoffee = 20;
+  cout<<"*ptrCoffee ="<<*ptrCoffee<<endl;
+
+
+  return 0;
+}
